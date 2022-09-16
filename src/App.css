@@ -1,38 +1,84 @@
-.App {
+body {
+  background-color: black;
+  height: 100vh;
+}
+
+.div {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+}
+.card {
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(84, 84, 84);
+}
+h1 {
+  margin: 1em 0 0.5em 0;
+  color: #151515;
+  font-weight: normal;
+  font-family: "Ultra", sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px rgb(189, 184, 184), 0 3px rgb(218, 215, 215);
   text-align: center;
 }
+P {
+  text-align: center;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin: 1em 0 0.5em 0;
+  color: #343434;
+  font-size: 22px;
+  line-height: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: "Orienta", sans-serif;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+h5 {
+  margin: 1em 0 0.5em 0;
+  color: #343434;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+  font-family: "Orienta", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-title {
+  margin-bottom: var(--bs-card-title-spacer-y);
+  text-align: center;
+}
+.card {
+  background-color: rgb(36, 36, 36);
+  width: 30%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(31, 12, 12, 0.12) 0px -12px 30px, rgba(255, 253, 253, 0.12) 0px 4px 6px,
+    rgb(255, 254, 254) 0px 12px 13px, rgba(234, 136, 136, 0.09) 0px -3px 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.weath {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  /* width: 100%; */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+}
+.btn {
+  margin-bottom: 15px;
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+form {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  color: aliceblue;
 }
