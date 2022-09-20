@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <div>
       <h1>Weather App Home</h1>
-      <form onSubmit={submitHandler}>
+      <form className="forms" onSubmit={submitHandler}>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Control
             type="text"

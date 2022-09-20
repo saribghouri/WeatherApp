@@ -1,0 +1,82 @@
+       
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    
+    <form onsubmit="signup(); return false ">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <div class="card">
+           <h1 id="h1">Signup Form</h1>
+     
+            <div class="card-body py-md-4">
+             <form _lpchecked="1">
+                <div class="form-group">
+                   <input type="text" class="form-control" id="firstName" placeholder="firstName">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="lastName" placeholder="lastName">
+           </div>
+              <div class="form-group">
+                   <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                                  </div>
+                                  
+                                
+         <div class="form-group">
+           <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+         </div>
+         <div class="form-group">
+            <input type="password" class="form-control" id="confirm-password" placeholder="confirm-password">
+         </div>
+         <div class="d-flex flex-row align-items-center justify-content-between">
+           
+           <button class="btn btn-primary">Create Account</button>
+                </div>
+             </form>
+           </div>
+        </div>
+      </div>
+      <p id="message"></p>
+      </div>
+      </div>
+ 
+    <center><h1>LOGIN FORM</h1></center>
+    <form id="user" onsubmit="login(event)">
+      <div class="container">
+        <label>Email : </label>
+        <input
+          id="email"
+          type="text"
+          placeholder="Enter Username"
+          name="username"
+          required
+        />
+        <label>Password : </label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter Password"
+          name="password"
+          required
+        />
+        <button type="submit">Login</button>
+
+        <br />
+      </div>
+      <p id="message1"></p>
+    </form>
+
+
+<script src="index.js"></script>
+  </body>
+</html>
